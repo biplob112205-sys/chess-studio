@@ -1,0 +1,20 @@
+{
+  "title": "DESTROY THE ITALIAN",
+  "subtitle": "TACTICAL CRUSH",
+  "opening": "Italian Game Counter-Attack",
+  "player": {
+    "name": "Biplob",
+    "rating": "1620"
+  },
+  "opponent": {
+    "name": "Alex_Miller",
+    "rating": "1580"
+  },
+  "moves_pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nd4 6. c3 b5 7. Bf1 Nxd5 8. Ne4 Qh4 9. Ng3 Bg4 10. f3 e4",
+  "settings": {
+    "resolution": [1080, 1920],
+    "fps": 30,
+    "theme": "chesscom_green",
+    "header_colors": ["#FFFFFF", "#FACC15"]
+  }
+}

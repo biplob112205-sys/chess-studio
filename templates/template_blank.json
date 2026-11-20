@@ -1,0 +1,20 @@
+{
+  "title": "CHESS OPENING TRAP",
+  "subtitle": "WIN IN 8 MOVES",
+  "opening": "Custom Opening",
+  "player": {
+    "name": "Player",
+    "rating": "1600"
+  },
+  "opponent": {
+    "name": "Opponent",
+    "rating": "1550"
+  },
+  "moves_pgn": "1. e4 e5 2. Nf3 Nc6",
+  "settings": {
+    "resolution": [1080, 1920],
+    "fps": 30,
+    "theme": "chesscom_green",
+    "header_colors": ["#FFFFFF", "#FACC15"]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "title": "HOW TO BEAT SCHOLAR'S MATE",
+  "timeline": [
+    {
+      "t_start": 0.0, "t_end": 4.8,
+      "badge": {"cat": "THE TRAP", "move": "Scholar's Defense", "desc": "Punishing the early Queen attack"}
+    },
+    {
+      "t_start": 4.8, "t_end": 5.8,
+      "move": {"from": "e2", "to": "e4", "piece": "P", "dur": 0.35},
+      "badge": {"cat": "OPENING", "move": "1. e4", "desc": "Standard King's Pawn opening"}
+    },
+    {
+      "t_start": 5.8, "t_end": 7.2,
+      "move": {"from": "e7", "to": "e5", "piece": "p", "dur": 0.35},
+      "badge": {"cat": "RESPONSE", "move": "1... e5", "desc": "Equalizing control of the center"}
+    },
+    {
+      "t_start": 7.2, "t_end": 10.4,
+      "move": {"from": "d1", "to": "h5", "piece": "Q", "dur": 0.4},
+      "arrows": [{"from": "h5", "to": "f7", "color": [248, 113, 113]}],
+      "badge": {"cat": "THE ATTACK", "move": "2. Qh5", "desc": "Wayward Queen attacks e5 & f7"}
+    },
+    {
+      "t_start": 10.4, "t_end": 12.8,
+      "move": {"from": "b8", "to": "c6", "piece": "n", "dur": 0.35},
+      "arrows": [{"from": "c6", "to": "e5", "color": [250, 204, 21]}],
+      "badge": {"cat": "DEVELOPMENT", "move": "2... Nc6", "desc": "Solidly defending the e5 pawn"}
+    },
+    {
+      "t_start": 12.8, "t_end": 16.0,
+      "move": {"from": "f1", "to": "c4", "piece": "B", "dur": 0.4},
+      "target_rings": ["f7"],
+      "arrows": [
+        {"from": "c4", "to": "f7", "color": [248, 113, 113]},
+        {"from": "h5", "to": "f7", "color": [248, 113, 113]}
+      ],
+      "badge": {"cat": "MATE THREAT", "move": "3. Bc4", "desc": "Dangerous battery aimed at f7"}
+    },
+    {
+      "t_start": 16.0, "t_end": 17.5,
+      "move": {"from": "g7", "to": "g6", "piece": "p", "dur": 0.3},
+      "arrows": [{"from": "g6", "to": "h5", "color": [248, 113, 113]}],
+      "badge": {"cat": "ATTACK QUEEN", "move": "3... g6", "desc": "Queen must retreat"}
+    },
+    {
+      "t_start": 17.5, "t_end": 19.5,
+      "move": {"from": "h5", "to": "f3", "piece": "Q", "dur": 0.35},
+      "arrows": [{"from": "f3", "to": "f7", "color": [248, 113, 113]}],
+      "badge": {"cat": "RE-ATTACK", "move": "4. Qf3", "desc": "White still tries for f7 mate"}
+    },
+    {
+      "t_start": 19.5, "t_end": 21.3,
+      "move": {"from": "g8", "to": "f6", "piece": "n", "dur": 0.35},
+      "badge": {"cat": "SHUT DOWN", "move": "4... Nf6", "desc": "All mate threats neutralized"}
+    },
+    {
+      "t_start": 21.3, "t_end": 23.8,
+      "move": {"from": "g2", "to": "g4", "piece": "P", "dur": 0.35},
+      "badge": {"cat": "OVEREXTENDED", "move": "5. g4", "desc": "Desperate kingside pawn push"}
+    },
+    {
+      "t_start": 23.8, "t_end": 25.6,
+      "move": {"from": "c6", "to": "d4", "piece": "n", "dur": 0.4},
+      "badge": {"cat": "COUNTERATTACK", "move": "5... Nd4!", "desc": "Knight enters the fight"}
+    },
+    {
+      "t_start": 25.6, "t_end": 28.0,
+      "target_rings": ["f3", "c2"],
+      "arrows": [
+        {"from": "d4", "to": "f3", "color": [248, 113, 113]},
+        {"from": "d4", "to": "c2", "color": [248, 113, 113]}
+      ],
+      "badge": {"cat": "THE FORK", "move": "...Nd4!", "desc": "Attacking Queen & threatening c2 fork"}
+    },
+    {
+      "t_start": 28.0, "t_end": 29.2,
+      "move": {"from": "f3", "to": "d1", "piece": "Q", "dur": 0.35},
+      "badge": {"cat": "RETREAT", "move": "6. Qd1", "desc": "White completely loses tempo"}
+    },
+    {
+      "t_start": 29.2, "t_end": 31.0,
+      "move": {"from": "d7", "to": "d5", "piece": "p", "dur": 0.35},
+      "arrows": [{"from": "d5", "to": "c4", "color": [248, 113, 113]}],
+      "badge": {"cat": "CENTER BREAK", "move": "6... d5!", "desc": "Attacking the c4 bishop"}
+    },
+    {
+      "t_start": 31.0, "t_end": 32.2,
+      "move": {"from": "e4", "to": "d5", "piece": "P", "dur": 0.3},
+      "badge": {"cat": "EXCHANGE", "move": "7. exd5", "desc": "White takes the center pawn"}
+    },
+    {
+      "t_start": 32.2, "t_end": 34.4,
+      "move": {"from": "c8", "to": "g4", "piece": "b", "dur": 0.35},
+      "arrows": [{"from": "g4", "to": "d1", "color": [248, 113, 113]}],
+      "badge": {"cat": "TACTICAL STRIKE", "move": "7... Bxg4!", "desc": "Queen is under direct attack"}
+    },
+    {
+      "t_start": 34.4, "t_end": 37.8,
+      "move": {"from": "f2", "to": "f3", "piece": "P", "dur": 0.3},
+      "arrows": [{"from": "f3", "to": "g4", "color": [248, 113, 113]}],
+      "badge": {"cat": "BAIT", "move": "8. f3", "desc": "White tries to kick the bishop"}
+    },
+    {
+      "t_start": 37.8, "t_end": 42.5,
+      "move": {"from": "f6", "to": "e4", "piece": "n", "dur": 0.4},
+      "is_brilliant": true,
+      "arrows": [{"from": "d8", "to": "h4", "color": [250, 204, 21]}],
+      "badge": {"cat": "BRILLIANT SACRIFICE", "move": "8... Ne4!!", "desc": "Destroys White position completely"}
+    },
+    {
+      "t_start": 42.5, "t_end": 43.5,
+      "move": {"from": "f3", "to": "g4", "piece": "P", "dur": 0.3},
+      "badge": {"cat": "GREED", "move": "9. fxg4", "desc": "White takes the poison bishop"}
+    },
+    {
+      "t_start": 43.5, "t_end": 45.8,
+      "move": {"from": "d8", "to": "h4", "piece": "q", "dur": 0.4},
+      "check_ring": "e1",
+      "badge": {"cat": "CHECK!", "move": "9... Qh4+", "desc": "King is flushed into the open"}
+    },
+    {
+      "t_start": 45.8, "t_end": 47.3,
+      "move": {"from": "e1", "to": "e2", "piece": "K", "dur": 0.35},
+      "badge": {"cat": "FORCED", "move": "10. Ke2", "desc": "Only legal square for White"}
+    },
+    {
+      "t_start": 47.3, "t_end": 48.93,
+      "move": {"from": "h4", "to": "f2", "piece": "q", "dur": 0.4},
+      "check_ring": "e2",
+      "badge": {"cat": "CHECKMATE!", "move": "10... Qf2#", "desc": "Scholar's Mate completely avenged!"}
+    }
+  ]
+}

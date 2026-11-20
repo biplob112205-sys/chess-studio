@@ -1,0 +1,34 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Personal Credentials & Environment Secrets (NEVER COMMITTED)
+.env
+.env.*
+credentials/
+*client_secret*.json
+*token*.json
+*.pem
+*.key
+
+# Media Inputs & Outputs
+Voiceovers/
+input_voiceovers/
+Export videos/
+output_videos/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+temp/
