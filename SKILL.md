@@ -19,11 +19,13 @@ workspace/
 │   ├── SKILL.md
 │   ├── assets/
 │   │   ├── pieces/              # Sharpened Wikipedia chess piece PNGs
-│   │   ├── sfx/                 # Authentic Chess.com move, capture, check, mate SFX
+│   │   ├── sfx/                 # Authentic Chess.com move, capture, check, mate SFX (.wav)
+│   │   ├── sounds/              # Full official Chess.com sound library (.wav and .mp3)
 │   │   ├── icons/               # Brilliant, great, best, blunder move evaluation badges
 │   │   └── avatars/             # User avatar & opponent avatars
 │   ├── scripts/
 │   │   ├── engine.py            # High-performance PIL + FFmpeg renderer
+│   │   ├── audio_mixer.py       # Automated Chess.com SFX mixer & broadcast loudnorm
 │   │   └── run.py               # One-click CLI runner
 │   └── templates/
 │       └── scholars_mate.json   # Move timeline & match config

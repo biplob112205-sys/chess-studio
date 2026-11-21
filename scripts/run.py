@@ -64,7 +64,16 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
     output_mp4 = args.output or os.path.join(out_dir, "scholars_mate_punish.mp4")
 
-    # 5. Execute Render
+    # 5. Automatically mix authentic Chess.com sound effects with voiceover
+    mixed_audio_file = os.path.join(out_dir, "master_audio_mixed.wav")
+    try:
+        from audio_mixer import mix_voiceover_with_sfx
+        print("🎵 Synchronizing and mixing authentic Chess.com sound effects...")
+        voice_file = mix_voiceover_with_sfx(voice_file, timeline, mixed_audio_file)
+    except Exception as e:
+        print(f"⚠️ Audio mixer notice: {e}. Proceeding with base audio.")
+
+    # 6. Execute Render
     print("🚀 Initializing Chess Video Generator...")
     engine.render_chess_short(
         audio_file=voice_file,

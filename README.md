@@ -26,11 +26,13 @@ chess-video-generator/
 ├── requirements.txt         # Python dependencies (Pillow, python-chess, etc.)
 ├── assets/
 │   ├── pieces/              # 12 Wikipedia vector-grade chess pieces (wP.png - bK.png)
-│   ├── sfx/                 # Authentic Chess.com move, capture, check, mate audio
+│   ├── sounds/              # Full official Chess.com audio library (12 .wav & .mp3 files)
+│   ├── sfx/                 # Move, capture, check, mate, castle, and start SFX
 │   ├── icons/               # Move evaluation badges (Brilliant, Great, Blunder, etc.)
 │   └── avatars/             # Neutral default player and bot avatars
 ├── scripts/
 │   ├── engine.py            # High-performance PIL + FFmpeg 1080x1920 renderer
+│   ├── audio_mixer.py       # Automated SFX mixing & broadcast loudness normalization
 │   └── run.py               # Turnkey CLI runner
 ├── templates/
 │   ├── scholars_mate.json   # Match timeline: Scholar's Mate Counter

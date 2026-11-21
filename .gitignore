@@ -28,7 +28,9 @@ Export videos/
 output_videos/
 *.mp4
 *.mov
-*.wav
-*.mp3
 *.m4a
 temp/
+
+# Whitelist Skill Audio Assets (Authentic Chess.com sounds must be tracked in Git)
+!assets/sounds/**
+!assets/sfx/**
